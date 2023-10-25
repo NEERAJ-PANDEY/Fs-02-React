@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="mydiv"></div>
+
+    <script type="text/babel">
+      function Hello() {
+        const mystyle = {
+      margin:"100px auto",
+      width:"500px",
+      backgroundColor: "DodgerBlue",
+      lineHeight:"1.6",
+      padding: "30px",
+      fontFamily: "Arial"
+    };
+
+        return (
+          <div style={mystyle}>
+            <h1>Learn Web Development : </h1>
+            <p>
+              Welcome to the MDN learning area. This set of articles aims to
+              guide complete beginners to web development with all that they
+              need to start coding websites. The aim of this area of MDN is not
+              to take you from "beginner" to "expert" but to take you from
+              "beginner" to "comfortable." From there, you should be able to
+              start making your way, learning from the <a>rest of MDN</a>, and other
+              intermediate to advanced resources that assume a lot of previous
+              knowledge. If you are a complete beginner, web development can be
+              challenging — we will hold your hand and provide enough detail for
+              you to feel comfortable and learn the topics properly. You should
+              feel at home whether you are a student learning web development
+              on your own or as part of a class, a teacher looking for class
+              materials, a hobbyist, or someone who just wants to understand
+              more about how web technologies work.
+            </p>
+          </div>
+        );
+      }
+
+      const container = document.getElementById("mydiv");
+      const root = ReactDOM.createRoot(container);
+      root.render(<Hello />);
+    </script>
+  </body>
+</html>
