@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+Header section styles */
+
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(239, 240, 243);
+    display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ .ul{
+    list-style: none;
+    display: flex;
+
+ }
+
+ ul>li{
+    font-size: 20px;
+    color:black;
+    margin: 10px;
+
+ }
+
+ .left{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: start;
+   margin-right: 100px;
+ }
+
+ .right{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: end;
+   margin-left: auto;
+ }
+
+ button{
+    background-color: green;
+    width: 100px;
+    color: white;
+    margin-right: 100px;
+ }
+
+
+/* 
+Hero section styles */
+
+ .hero{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 70px auto;
+   background-color: rgb(43, 43, 126);
+   color: white;
+   margin: 0%;
+   padding: 0%;
+   height: 20em;
+
+ }
+
+ .btn-hero{
+   align-items: center;
+   justify-content: center;
+   width: 200px;
+   height: 40px;
+   color: white;
+   margin-left: 100px;
+   
+ }
+
+
+/* 
+ Card component styles */
+
+ .card-container{
+   display: flex;
+   flex-direction: row;
+   background: white;
+   height: 100%;
+   width: 100%;
+   margin: auto;
+   justify-content: center;  
+}
+
+
+.box
+{
+   width: 300px;
+   height: 500px;
+   background:white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 50px;
+
+}
+
+.img-class{
+   
+   height: 100px;
+   width: 100px;
+   margin-top: 100px;
+   
+}
+
+p{
+   text-align: justify;
+}

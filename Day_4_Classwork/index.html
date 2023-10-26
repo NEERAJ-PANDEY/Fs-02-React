@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+   
+  <div id="root"></div>
+
+
+<Script type="text/babel">
+
+   function Component()
+   {
+
+    return(
+        
+    <>
+      <header>
+        <div className="container">
+
+            <div className="left">
+            <ul className="ul">
+                <li>Hootsuit</li>
+                <li>Platforms</li>
+                <li>Plans</li>
+                <li>Enterprise</li>
+                <li>Resource</li>
+                <li>Education</li>
+
+            </ul>
+            </div>
+            
+            <div className="right">
+                <ul className="ul">
+                    <li>Contact us</li>
+                    <li>Login </li>
+                    <button>Sign Up</button>
+                </ul>
+            </div>
+        </div>
+        </header>
+
+
+        <heroic className="hero">
+
+            <h1 className="h1-hero">See value from social sooner</h1>
+            <p className="p-hero">Our training and strategic services have helped<br></br>
+            thousands of organizations succeed on social</p>
+                <button className="btn-hero">Request a demo</button>
+            
+        </heroic>
+
+
+
+        
+        <card>
+            <div class="card-container">
+    <div class="box">
+        <img src="./rocket-icon.png" class="img-class" alt="img"/>
+
+        <h2>2500</h2>
+        <p>enterprise organizations successfully launched </p>
+    </div>
+    <div class="box">
+        <img src="./addressbook-icon.png" class="img-class" alt="img"/>
+
+        <h2>45,000</h2>
+        <p>enterprise organizations successfully launched </p>
+    </div>
+
+    <div class="box">
+        <img src="./people-icon.png" class="img-class" alt="img"/>
+
+        <h2>200,000+</h2>
+        <p>enterprise organizations successfully launched </p>
+    </div>
+</div>
+        </card>
+    </>
+         
+    );
+   }
+
+   
+
+  const container=document.getElementById('root');
+  const root=ReactDOM.createRoot(container);
+  root.render(<Component/>);
+
+
+   
+  </script>
+
+
+</body>
+</html>
