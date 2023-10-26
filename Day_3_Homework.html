@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="mydiv"></div>
+
+    <script type="text/babel">
+      function Hello() {
+        const mystyle = {
+          margin: "100px auto",
+          width: "500px",
+          lineHeight: "1.6",
+          padding: "30px",
+          fontFamily: "Arial",
+          boxShadow: "0 0 10px black",
+        };
+
+        return (
+          <div style={mystyle}>
+            <h1>Topics Covered : </h1>
+            <article>
+              <p>The following is a list of all the topics we cover in the MDN
+              learning area.</p>
+             <p> <u><a href="https://developer.mozilla.org/en-US/docs/Learn"> Getting started with the web Provides a practical :</a></u></p>
+              introduction to web development for complete beginners. 
+              <p><u><a href="https://developer.mozilla.org/en-US/docs/Learn">HTML —Structuring the web : </a></u></p>
+              is the language that we use to structure
+              the different parts of our content and define what their meaning
+              or purpose is. This topic teaches HTML in detail. 
+             <p> <u><a href="https://developer.mozilla.org/en-US/docs/Learn">CSS — Styling the web :</a></u></p>
+              CSS is the language that we use to control our web
+              content's style and layout, as well as adding behavior like
+              animation. This topic provides comprehensive coverage of CSS.
+            </article>
+          </div>
+        );
+      }
+
+      const container = document.getElementById("mydiv");
+      const root = ReactDOM.createRoot(container);
+      root.render(<Hello />);
+    </script>
+  </body>
+</html>
