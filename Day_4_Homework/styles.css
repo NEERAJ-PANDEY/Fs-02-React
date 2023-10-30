@@ -1,0 +1,141 @@
+
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: .4rem;
+    align-items: center;
+    justify-content: center;
+    /* margin: 2.5rem; */
+    /* padding: .5rem; */
+  }
+  
+  .profile-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* padding: 1%; */
+    margin-right: 190px;
+  }
+  
+  .profile-img>p {
+    font-weight: 1000;
+    font-size: 25px;
+  }
+  
+  .info {
+    border-right: 15px solid black;
+    padding-right: 1.8rem;
+    height: 310px;
+    border-right: 7.5px solid black;
+    border-bottom: 10px solid black;
+  }
+  
+  .info>h1 {
+    font-weight: 1300;
+    font-size: 55px;
+  }
+  
+  .info>h3 {
+    font-weight: 1000;
+    font-size: 25px;
+  }
+  
+  .summary {
+    width: 400px;
+    height: 284px;
+    padding: .8rem;
+    margin-left: -20px;
+    border-left: 7.5px solid black;
+    border-bottom: 10px solid black;
+  }
+  
+  .summary>p {
+    font-size: 18px;
+    margin-left: 30px;
+  }
+  
+  .work {
+    display: flex;
+    flex-direction: row;
+    gap: .4rem;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .work-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* padding: 1%; */
+    margin-right: 180px;
+  }
+  
+  .work-img>p {
+    font-weight: 1000;
+    font-size: 25px;
+  }
+  
+  .work-summary {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .summary-1 {
+    display: flex;
+    gap: 5rem;
+  }
+  
+  .details {
+    max-width: 600px;
+  }
+  .skills{
+    /* border-top: 10px solid black;
+    border-bottom: 10px solid black; */
+    display: flex;
+    flex-direction: row;
+    gap: .4rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .skills-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 7rem;
+  }
+  .skills-img > p {
+    font-weight: 1000;
+    font-size: 25px;
+    margin-top: -2rem;
+  }
+  .skills-main{
+    display: flex;
+    gap: 40px;
+    width: 800px;
+    /* padding: 2rem; */
+    /* border: 1px solid black; */
+    justify-content: center;
+    border-bottom: 7px solid black;
+    border-top: 7px solid black;
+  }
+  .skills-left{
+    display: flex;
+    flex-direction: column;
+    border-right: 7px solid black;
+  }
+  .content {
+    display: flex;
+    gap: 20px;
+    padding-right: 4rem;
+  }
+  .footer {
+    display: flex;
+    margin-top: 3rem;
+    gap: 100px;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
