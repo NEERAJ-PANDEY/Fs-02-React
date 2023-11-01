@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainbar {
+  background-image: url("https://images.unsplash.com/photo-1621889592608-fc5009823c2d?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGRpbmluZyUyMGNoYWlyfGVufDB8fDB8fHww");
+  background-size: cover;
+  padding: 10rem;
+
+}
+
+.section3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
