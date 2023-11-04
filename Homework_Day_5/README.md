@@ -1,6 +1,6 @@
 # Hosted link  
 
-[Geekfood](https://github.com/facebook/create-react-app);
+[Geekfood](https://github.com/facebook/create-react-app) - You can check live demo here <<---
 
 # Getting Started with Create React App
 
