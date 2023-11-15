@@ -1,27 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.mainbar {
-  background-image: url("https://images.unsplash.com/photo-1621889592608-fc5009823c2d?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGRpbmluZyUyMGNoYWlyfGVufDB8fDB8fHww");
-  background-size: cover;
-  padding: 10rem;
-
+.container {
+  max-width: 1200px;
+  margin: auto;
 }
 
-.section3 {
-  display: flex;
-  flex-wrap: wrap;
+.home {
+  height: 100vh;
+  width: 100%;
+  max-width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.navbar {
+  position: fixed;
+  width: 100%;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.card-img {
+  height: 500px;
+  width: 600px;
+}
+
+.footer li {
+  margin: 20px;
 }

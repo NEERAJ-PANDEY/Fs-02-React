@@ -1,18 +1,13 @@
-import React from 'react';
-import Navbar from './Component/Navbar';
-import Main from './Component/Main';
-import Section2 from './Component/Section2';
-import Section3 from './Component/Section3';
-import Footer from './Component/Footer';
-import './App.css';
+import "./App.css";
+import { Navbar, Home, Card, Testimonial, Footer } from "./components/index";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
-      <Main />
-      <Section2 />
-      <Section3 />
+      <Home />
+      <Card />
+      <Testimonial />
       <Footer />
     </div>
   );
