@@ -1,13 +1,79 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.container {
+  max-width: 1200px;
+  margin: auto;
 }
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.navbar-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.class-title {
+  margin: 0;
+  color: rgb(71, 68, 68);
+}
+
+.navbar {
+  background-color: rgb(110, 45, 25);
+  color: white;
+  width: 100%;
+  padding: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 0;
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image {
+  max-width: 100%;
+  width: 100%;
+  height: 80vh;
+}
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  margin: 3% 0;
+  background-color: rgb(117, 59, 59);
+  color: aliceblue;
+}
+
+.home-btn {
+  margin: 10px;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.body-title {
+  color: brown;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 3% 0;
+}
+
+.footer-content h2,
+p {
+  margin: 0;
+}
+
+.footer-copy {
+  color: brown;
 }

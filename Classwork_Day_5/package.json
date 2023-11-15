@@ -1,5 +1,5 @@
 {
-  "name": "Classwork_Day_5",
+  "name": "day5-cw",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,6 +36,6 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.3.5"
+    "react-router-dom": "^6.17.0"
   }
 }
