@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.nav li {
+  margin: 10px;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.restaurant {
+  margin-top: 30px;
+}
+
+.restaurants-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurant-item {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 350px;
+  height: 250px;
+}
