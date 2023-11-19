@@ -1,10 +1,3 @@
-# Text Utils App Using React Project
-
-visit webpage here : <a href="https://competent-snyder-f076c6.netlify.app/" target="_blank">click here</a>
-
-## About App
-
-This project is created using react js. Created by Shubham bawankar. It has multiple functionality for text editing according to user. It has both light and dark mode
 
 ## Install Package
 
@@ -41,16 +34,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Images Of The WebSite
-### Light Mode
-<img src="./images/Screenshot (35).png"/>
-<img src="./images/Screenshot (36).png"/>
-<img src="./images/Screenshot (37).png"/>
-
-
-### Dark Mode
-<img src="./images/Screenshot (38).png"/>
-<img src="./images/Screenshot (39).png"/>
-<img src="./images/Screenshot (40).png"/>
