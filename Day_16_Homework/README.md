@@ -29,22 +29,3 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Images Of The WebSite
-### Light Mode
-<img src="./images/Screenshot (35).png"/>
-<img src="./images/Screenshot (36).png"/>
-<img src="./images/Screenshot (37).png"/>
-
-
-### Dark Mode
-<img src="./images/Screenshot (38).png"/>
-<img src="./images/Screenshot (39).png"/>
-<img src="./images/Screenshot (40).png"/>
