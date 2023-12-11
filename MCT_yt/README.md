@@ -1,6 +1,6 @@
 # Hosted application 
 
-click here [YouTube-clone](https://mct-yt-clone-niraj.netlify.app/).
+click here to check live app :  [YouTube-clone](https://mct-yt-clone-niraj.netlify.app)
 
 
 # Getting Started with Create React App
